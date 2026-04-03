@@ -1,37 +1,42 @@
-# CNCF Project Template Repository
+# ADP Repository Template
 
-This is a [template repository][template-repo] for CNCF projects created by [CNCF SIG Contributor
-Strategy][contrib-strat]. You can use it to either start a new repository that
-has all the required files for a CNCF project or just grab the particular files
-that you need.
+This is a template to **create new repositories** in The AI Docs Project (ADP). It gives a **standard starting point** with the files and structure we use for all ADP projects.
 
-## Steps
+This template is **meant to be customized** for each new project. You should update the README, changelog, and any other templates to reflect your project’s specifics.
 
-1. Click **Use this template** and create a copy of this repository.
 
-    ![Green button that says "Use this template"](https://user-images.githubusercontent.com/1368985/95903529-e9c32f00-0d5b-11eb-8723-4369f7c9e044.png)
-1. Remove **.github/settings.yml**. This is not a template and contains
-   configuration specific our repository. You should not keep this file.
-1. Customize every [required template](#required-templates) and address each TODO item.
 
-### Customize Templates
+## Getting Started
 
-Each file is a template with instructions to customize the contents for your project.
-Most files use comments with TODO to call out where you need to make changes. We recommend
-viewing the files in raw or text form so that you can see the comments. 
+Follow these steps to create a new repository using the ADP project template:
 
-For example in markdown files, we use `<!-- TODO: ... -->` to provide additional
-guidance or indicate where action is required but you won't see those comments
-when you view the markdown file in GitHub unless you view the raw text.
+1. Go to the **template repository** in the organization: [The AI Docs Project](https://github.com/The-AI-Docs-Project).  
+2. Click the **“Use this template”** button at the top of the repository.  
+3. In the **Create a new repository from template** form:
+   - **Owner:** Select `The-AI-Docs-Project` from the dropdown.  
+   - **Repository name:** Enter the name for your new project repository.  
+   - **Visibility:** Choose **Private** or **Public** depending on your project needs.  
+4. Click **“Create repository from template”**.  
+
+5. Clone your new repository locally:
+
+```bash
+git clone git@github.com:The-AI-Docs-Project/<new-repo>.git
+cd <new-repo>
+```
+
+
 
 ## Required Templates
 
 * [LICENSE](LICENSE)
+* [CHANGELOG.md](CHANGELOG.md)
 * [CONTRIBUTING.md](CONTRIBUTING.md)
 * [README-template.md](README-template.md)
-
-[template-repo]: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
-[contrib-strat]: https://github.com/cncf/sig-contributor-strategy/blob/master/README.md
-
 Note: This is the README file for the templates repo. Please use [README-template.md](README-template.md)
 as a template for your project README.
+
+### Attribution
+
+This template is **based on the CNCF project template** distributed under an Apache License 2.0:  
+[CNCF Project Template](https://github.com/cncf/project-template)
