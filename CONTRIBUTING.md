@@ -47,8 +47,8 @@ If you’re new to ADP, these are great ways to start:
 ## Find an Issue
 
 We have good first issues for new contributors and help wanted issues suitable
-for any contributor. [good first issue](TODO) has extra information to
-help you make your first contribution. [help wanted](TODO) are issues
+for any contributor. [good first issue](https://github.com/The-AI-Docs-Project/project-template/issues/1) has extra information to
+help you make your first contribution. [help wanted](https://github.com/The-AI-Docs-Project/project-template/issues/2) are issues
 suitable for someone who isn't a core maintainer and is good to move onto after
 your first pull request.
 
