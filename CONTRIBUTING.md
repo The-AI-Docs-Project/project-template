@@ -2,7 +2,7 @@
 
 * [Ways to Contribute](#ways-to-contribute)
 * [Good First Contributions](#good-first-contributions)
-* [Getting Started](#getting-started)
+* [Find an issue](#find-an-issue)
 * [Asking for Help](#asking-for-help)
 * [Pull Request Process](#pull-request-process)
 * [Development Environment](#development-environment)
@@ -87,6 +87,23 @@ For code contributions (agents, tools, scripts):
 - Test your changes locally before submitting a PR  
 
 > Exact setup details will be provided in the repo for each project or tool.
+
+### Creating a New Repository Using the ADP Project Template
+
+If your contribution involves creating a **new repository**, follow these steps:
+
+1. Go to the **project template repository** in the organization: *The AI Docs Project*.  
+2. Click the **“Use this template”** button at the top of the repository.  
+3. Fill in the **Create a new repository from template** form:
+- **Owner:** Select *The-AI-Docs-Project* from the dropdown.  
+- **Repository name:** Enter the name for your new project repository.  
+- **Visibility:** Choose Private or Public depending on your project needs.  
+4. Click **Create repository from template**.  
+5. Clone your new repository locally:
+```bash
+git clone git@github.com:The-AI-Docs-Project/<new-repo>.git
+cd <new-repo>
+```
 
 
 ## Sign Your Commits
